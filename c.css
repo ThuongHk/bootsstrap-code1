@@ -1,0 +1,111 @@
+.row {
+    height: 50px;
+    color: white !important;
+    align-items: center;
+   
+}
+.col-md-5 p {
+    padding-top: 13px ;
+    margin-left: 50px;
+  
+}
+
+.col-md-7 {
+    display: flex;
+    list-style: none;
+  
+}
+/* .col-md-7{
+    margin-right: 10px;
+} */
+.col-md-7 li:nth-child(2){
+    color: red !important;
+}
+.col-md-7 li:nth-child(1){
+    color: yellow !important;
+}
+.col-md-7 li:nth-child(3){
+    
+    position: relative;
+}
+.col-md-7 li:nth-child(3) input{
+    border-radius: 4px;
+    width: 220px;
+}
+.col-md-7 li:nth-child(3) i{
+    position: absolute;
+    top:7px;
+    right: 15px;
+    color: black;
+   
+}
+.col-md-7 li:nth-child(2){
+    margin-right: 10px;
+}
+/* menu */
+.col-md-4 img{
+    height:50px;
+    width: 100px;
+    margin-left:50px;
+    padding: 10px;
+}
+.col-md-8 ul .active{
+    background-color:rgb(219, 175, 29);
+}
+.col-md-8 ul li:hover{
+    background-color: rgb(218, 157, 28);
+}
+.col-md-8 ul li{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#carouselId img{
+    width: 100% !important;
+    height: 500px !important;
+}
+/* product */
+
+.col-md-9 .col-sm-3  {
+   color:black !important;
+}
+.col-md-9 .col-sm-3 .card{
+ width:206px !important;
+ height:356px !important;
+}
+.row .col-md-3 ul  li a, h6{
+    color: white !important;
+    text-decoration:none;
+}
+.row .col-md-3 ul  li a:hover{
+    color: rgb(216, 197, 23);
+}
+.row .col-md-3 ul  li {
+    text-align: left;
+}
+.row .col-md-3 .row .col-sm-12{
+    background-color: black !important;
+}
+
+/* .row {
+    height: none !important ;
+    color: white !important;
+    align-items: none ;
+} */
+.col-md-3  img{
+    width: 308px;
+}
+
+footer {
+    background-color: white;
+    color: rgb(26, 17, 17) !important;
+    position: relative;
+    top: 550px;
+    left: -5px;
+    width: calc(100% - 10px);
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -2;
+}
